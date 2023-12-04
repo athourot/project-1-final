@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
 body {
-  font-family: "Andale Mono";
+  font-family: "Noto Sans";
+  text-align: center;
   background-color: #88c6fc;
 }
 
@@ -25,6 +26,11 @@ nav a {
   color: #fff;
 }
 
+nav ul li a:hover {
+  background-color: #3060d1;
+  color: #FFFFFF;
+}
+
 section {
   background-color: #fff;
   color: black;
@@ -44,6 +50,13 @@ h2 {
 .header-gabarito {
   font-family: Gabarito;
 }
+
+h1, h2, h3 {
+  font-family: 'DejaVu Sans Mono', monospace;
+  color: #440B11;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
 
 p {
   margin: 10px 0;
@@ -85,7 +98,7 @@ img {
 
 .image-container{
   float: right;
-   margin-right: 100px;
+  margin-right: 10px;
   max-width: 100%;
   max-height: 300px;
 }
