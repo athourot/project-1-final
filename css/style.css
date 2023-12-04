@@ -45,6 +45,7 @@ section {
 h2 {
   font-size: 24px;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .header-gabarito {
